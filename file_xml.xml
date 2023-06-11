@@ -1,13 +1,24 @@
-<pagina104>
+<corsivo>
+  <pagina104>
+      <girato>
+        <tratto>
+          <ritorno>Giordano Giulia</ritorno>
+          <ritorno>Via Carlo Alberto</ritorno>
+        </tratto>
+      </girato>
+    </pagina104>
 
-</pagina104>
+
+    <pagina105>
+      <testo>
+        d' fuili ca venne tuti i mannent a
+        clnaine ' tol tabai e si la duma nen
+        a rispundu che a <barrato>paru</barrato>
+      </testo>
+    </pagina105>
 
 
-<pagina105>
-
-</pagina105>
-
-
-<pagina106>
-
-</pagina106>
+    <pagina106>
+      <>
+    </pagina106>
+ </corsivo>
