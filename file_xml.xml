@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<body>
 <corsivo>
   <pagina104>
       <girato>
@@ -36,6 +36,9 @@
         la strada giusta.
       </testo>
     </pagina105>
+  
+  
+    <pagina 106>
       <testo>
         fano tanto di muscoli e dimerini, <cancellatura>.</cancellatura>
         sottoposto a continue fatiche e alla
@@ -56,8 +59,7 @@
         presenteranno a metà.
         <linea> - </linea>
       </testo>
+     </pagina106>
 
-    <pagina106>
-      <>
-    </pagina106>
+    </body>
  </corsivo>
