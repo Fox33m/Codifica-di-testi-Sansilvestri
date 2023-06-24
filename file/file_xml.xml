@@ -2,7 +2,7 @@
 <DOCTYPE TEI SYSTEM "http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng">
 <body>
 <corsivo>
-  <div> <!-- pagina 104 -->
+  <div id="pagina104"> <!-- pagina 104 -->
 
       <girato>
         <tratto>
