@@ -2,7 +2,8 @@
 <DOCTYPE TEI SYSTEM "http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng">
 <body>
 <corsivo>
-  <div>
+  <div> <!-- pagina 104 -->
+
       <girato>
         <tratto>
           <ritorno>Giordano Giulia</ritorno>
@@ -12,7 +13,7 @@
     </div>
 
 
-    <div>
+    <div> <!-- pagina 105 -->
       <testo>
         d' fucli ca venne tuti i mannent a
         clnaine ' tol tabai e si la duma nen
@@ -39,7 +40,7 @@
     </div>
   
   
-    <div>
+    <div> <!-- pagina 106 -->
       <testo>
         fano tanto di muscoli e dimerini, <cancellatura>.</cancellatura>
         sottoposto a continue fatiche e alla
