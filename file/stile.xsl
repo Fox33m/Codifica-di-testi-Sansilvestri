@@ -20,3 +20,11 @@
       </html>
      </xsl:template>
   </xsl:stylesheet>
+
+<xsl:template match="p">
+  <fo:block>
+    <fo:inline rotate="90">
+      <xsl:value-of select="."/>
+    </fo:inline>
+  </fo:block>
+</xsl:template>
