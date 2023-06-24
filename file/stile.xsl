@@ -1,30 +1,20 @@
 <?xml version="1.0"?>
   <xsl:stylesheet version="1.0" xmlns:xsl="./file_xml.xml">
-    <xsl:template match="/">
-      <html>
-        <body>
-          <h2>My CD Collection</h2>
-            <table border="1">
-              <tr bgcolor="#9acd32">
-                <th>Title</th>
-                <th>Artist</th>
-             </tr>
-            <xsl:for-each select="catalog/cd">
-              <tr>
-                <td><xsl:value-of select="title"/></td>
-                <td><xsl:value-of select="artist"/></td>
-              </tr>
-            </xsl:for-each>
-           </table>
-        </body>
-      </html>
-     </xsl:template>
-  </xsl:stylesheet>
-
-<xsl:template match="p">
-  <fo:block>
-    <fo:inline rotate="90">
-      <xsl:value-of select="."/>
-    </fo:inline>
-  </fo:block>
+   <xsl:template match="/">
+  <fo:root>
+    <fo:layout-master-set>
+    </fo:layout-master-set>
+    <fo:page-sequence>
+      <fo:flow flow-name="xsl-region-body">
+        <fo:block font-style="italic">
+          <!-- Contenuto generale del documento -->
+        </fo:block>
+        <fo:block id="pagina104" font-style="italic" writing-mode="tb-rl">
+          <!-- Contenuto del primo paragrafo con id "pagina104" -->
+        </fo:block>
+      </fo:flow>
+    </fo:page-sequence>
+  </fo:root>
 </xsl:template>
+
+  </xsl:stylesheet>
