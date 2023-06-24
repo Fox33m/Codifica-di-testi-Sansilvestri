@@ -5,18 +5,13 @@
 <DOCTYPE TEI SYSTEM "http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng">
 <body>
   <div id="pagina104"> <!-- pagina 104 -->
-
-      <girato>
-        <tratto>
-          <ritorno>Giordano Giulia</ritorno>
-          <ritorno>Via Carlo Alberto</ritorno>
-        </tratto>
-      </girato>
+          <p>Giordano Giulia</p>
+          <p>Via Carlo Alberto</p>
     </div>
 
 
     <div> <!-- pagina 105 -->
-      <testo>
+      <p>
         d' fucli ca venne tuti i mannent a
         clnaine ' tol tabai e si la duma nen
         a rispundu che a <del>paru</del>campu
@@ -38,12 +33,12 @@
         Tedeschi armati fino ai denti e
         nelle autobbinde <del> casegiò</del> indicò
         la strada giusta.
-      </testo>
+      </p>
     </div>
   
   
     <div> <!-- pagina 106 -->
-      <testo>
+      <p>
         fano tanto di muscoli e dimerini, <cancellatura>.</cancellatura>
         sottoposto a continue fatiche e alla
         amillante preoccupazione di venire
@@ -61,7 +56,7 @@
         è passato, il domani tornerà
         e, tanti disagi divisi mi si
         presenteranno a metà.
-      </testo>
+      </p>
       <div rend="hr"></div>
      </div>
     </body>
