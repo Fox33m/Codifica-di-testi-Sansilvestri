@@ -25,6 +25,14 @@
             margin-top: 10px;
             margin-bottom: 10px;
           }
+          .full-width-hr {
+            border: none;
+            height: 1px;
+            background-color: black;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 100%;
+          }
         </style>
       </head>
       <body>
@@ -67,6 +75,10 @@
 
   <xsl:template match="div[@rend='hr']">
     <hr class="hr"/>
+  </xsl:template>
+
+  <xsl:template match="linea">
+    <hr class="full-width-hr"/>
   </xsl:template>
 
 </xsl:stylesheet>
