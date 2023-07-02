@@ -14,8 +14,16 @@
           .pagina104, .pagina105, .pagina106 {
             font-style: italic;
           }
+          .newline {
+            white-space: pre-line;
+          }
           .cancellatura {
             text-decoration: line-through;
+          }
+          .hr {
+            border-top: 1px solid black;
+            margin-top: 10px;
+            margin-bottom: 10px;
           }
         </style>
       </head>
@@ -30,10 +38,10 @@
       <xsl:apply-templates select="div[@id='pagina104']"/>
     </div>
     <div class="pagina105">
-      <xsl:apply-templates select="div[contains(p, 'pagina 105')]"/>
+      <xsl:apply-templates select="div[@id='pagina105']"/>
     </div>
     <div class="pagina106">
-      <xsl:apply-templates select="div[contains(p, 'pagina 106')]"/>
+      <xsl:apply-templates select="div[@id='pagina106']"/>
     </div>
   </xsl:template>
 
@@ -52,5 +60,13 @@
       <xsl:apply-templates/>
     </span>
   </xsl:template>
-  
+
+  <xsl:template match="br">
+    <br/>
+  </xsl:template>
+
+  <xsl:template match="div[@rend='hr']">
+    <hr class="hr"/>
+  </xsl:template>
+
 </xsl:stylesheet>
