@@ -14,6 +14,9 @@
           .pagina104, .pagina105, .pagina106 {
             font-style: italic;
           }
+          .cancellatura {
+            text-decoration: line-through;
+          }
         </style>
       </head>
       <body>
@@ -44,4 +47,10 @@
     </p>
   </xsl:template>
 
+  <xsl:template match="del">
+    <span class="cancellatura">
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+  
 </xsl:stylesheet>
