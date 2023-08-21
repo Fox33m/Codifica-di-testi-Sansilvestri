@@ -3,11 +3,11 @@
 <!DOCTYPE TEI SYSTEM "http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng">
 <diary>
 <body>
+  
   <div id="pagina104"> <!-- pagina 104 -->
           <p>Giordano Giulio
           Via Carlo Alberto</p>
     </div>
-
 
     <div id="pagina104"> <!-- pagina 105 -->
       <p>
@@ -35,7 +35,6 @@
       </p>
     </div>
   
-  
     <div id="pagina106"> <!-- pagina 106 -->
       <p>
         fano tanto di muscoli e dimerini, <del>.</del>
@@ -58,5 +57,6 @@
       </p>
       <linea></linea>
      </div>
+  
     </body>
 </diary>
