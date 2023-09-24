@@ -1,1 +1,62 @@
-sample
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/Fox33m/Codifica-di-testi-Sansilvestri/main/file/stile.xsl"?>
+<!DOCTYPE TEI SYSTEM "http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng">
+<diary>
+<body>
+  
+  <div id="pagina104"> <!-- pagina 104 -->
+          <p>Giordano Giulio
+          Via Carlo Alberto</p>
+    </div>
+
+    <div id="pagina105"> <!-- pagina 105 -->
+      <p>
+        d' fucli ca venne tuti i mannent a
+        clnaine ' tol tabai e si la duma nen
+        a rispundu che a <del>paru</del> campu
+        le bumbe a man, a ventria de
+        lur a imarichein un ad ririre al
+        tabae par tutti e a primibeisa ai
+        soldà da neve. Anche altri
+        tabachini più stufi.
+        Fa <del>questo</del> inluenta sullo spionaggio
+        precedente. Pare che le spie siano Bar=
+        geni abitanti rea a Pineralo cani
+        Tedeschi e giuniti non si può
+        castigarle, Però sarebbe appor=
+        tuno tagliare i capelli a una maestra e,
+        e a una specie di prostituta di mai=
+        dorello, non si può invece umana=
+        mente infierire con qualche disgra=
+        ziato che, sorpreso e atterriro dai
+        Tedeschi armati fino ai denti e
+        nelle autobbinde <del> casegiò</del> indicò
+        la strada giusta.
+      </p>
+    </div>
+  
+    <div id="pagina106"> <!-- pagina 106 -->
+      <p>
+        fano tanto di muscoli e dimerini, <del>.</del>
+        sottoposto a continue fatiche e alla
+        amillante preoccupazione di venire
+        arrestato, Trasalire al rombo
+        di ogni motore di automobile,
+        vivere con gente come vermi o cane
+        temi altrerrita che mette lo spa=
+        vento agli altri e dover mostrarsi
+        calmo con loro, apervare ogni
+        faccia sospetta e raccontare momenti
+        di bugie per depistare la gente,
+        sperare che per mesi e forsi per 
+        anni non tornerò a casa... che
+        brutta vita, ma un altro giorno
+        è passato, il domani tornerà
+        e, tanti disagi divisi mi si
+        presenteranno a metà.
+      </p>
+      <linea></linea>
+     </div>
+  
+    </body>
+</diary>
