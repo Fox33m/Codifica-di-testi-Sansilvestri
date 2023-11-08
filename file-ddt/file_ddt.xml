@@ -19,13 +19,21 @@
         <p>
           d' fucli ca venne tuti i mannent a
           clnaine ' tol tabai e si la duma nen
-          a rispundu che a <del>paru</del> campu
+          a rispundu che a 
+          <app>
+            <lem>paru</lem>
+            <rdg wit="#corr">campu</rdg>
+          </app>
           le bumbe a man, a ventria de
           lur a imarichein un ad ririre al
           tabae par tutti e a primibeisa ai
           soldà da neve. Anche altri
           tabachini più stufi.
-          Fa <del>questo</del> inluenta sullo spionaggio
+          Fa 
+          <app>
+            <lem>questo</lem>
+            <rdg wit="#corr">inluenta sullo spionaggio</rdg>
+          </app>
           precedente. Pare che le spie siano Bar=
           geni abitanti rea a Pineralo cani
           Tedeschi e giuniti non si può
@@ -36,14 +44,21 @@
           mente infierire con qualche disgra=
           ziato che, sorpreso e atterriro dai
           Tedeschi armati fino ai denti e
-          nelle autobbinde <del>casegiò</del> indicò
+          nelle autobbinde <app>
+            <lem>casegiò</lem>
+            <rdg wit="#corr">indicò</rdg>
+          </app>
           la strada giusta.
         </p>
       </div>
 
       <div type="entry" xml:id="pagina106"> <!-- pagina 106 -->
         <p>
-          fano tanto di muscoli e dimerini, <del>.</del>
+          fano tanto di muscoli e dimerini, 
+          <app>
+            <lem>.</lem>
+            <rdg wit="#corr">...</rdg>
+          </app>
           sottoposto a continue fatiche e alla
           amillante preoccupazione di venire
           arrestato, Trasalire al rombo
