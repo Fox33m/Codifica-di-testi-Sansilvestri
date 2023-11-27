@@ -17,7 +17,7 @@
 
         function displayResult() {
             xml = loadXMLDoc("path/to/your/file.xml");
-            xsl = loadXMLDoc("path/to/your/file.xsl");
+            xsl = loadXMLDoc("https://raw.githubusercontent.com/Fox33m/Codifica-di-testi-Sansilvestri/main/file/stile.xsl");
 
             if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
                 ex = xml.transformNode(xsl);
