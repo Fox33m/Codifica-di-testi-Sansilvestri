@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+<head>
+    <meta charset="UTF-8">
+    <title>Diario</title>
+    <script>
+        function loadXMLDoc(filename) {
+            if (window.ActiveXObject) {
+                xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+            } else {
+                xhttp = new XMLHttpRequest();
+            }
+            xhttp.open("GET", filename, false);
+            xhttp.send("");
+            return xhttp.responseXML;
+        }
+
+        function displayResult() {
+            xml = loadXMLDoc("path/to/your/file.xml");
+            xsl = loadXMLDoc("path/to/your/file.xsl");
+
+            if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
+                ex = xml.transformNode(xsl);
+                document.getElementById("example").innerHTML = ex;
+            } else if (document.implementation && document.implementation.createDocument) {
+                xsltProcessor = new XSLTProcessor();
+                xsltProcessor.importStylesheet(xsl);
+                resultDocument = xsltProcessor.transformToFragment(xml, document);
+                document.getElementById("example").appendChild(resultDocument);
+            }
+        }
+    </script>
+</head>
+<body onload="displayResult()">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Diario</title>
+            </titleStmt>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="entry" xml:id="pagina104">
+                <p>
+                    <xsl:apply-templates select="div[@id='pagina104']"/>
+                </p>
+            </div>
+            <div type="entry" xml:id="pagina105">
+                <p>
+                    <xsl:apply-templates select="div[@id='pagina105']"/>
+                </p>
+            </div>
+            <div type="entry" xml:id="pagina106">
+                <p>
+                    <xsl:apply-templates select="div[@id='pagina106']"/>
+                </p>
+            </div>
+        </body>
+    </text>
+
+    <div id="example"/>
+</body>
+</html>
 
