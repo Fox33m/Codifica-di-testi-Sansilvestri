@@ -16,8 +16,8 @@
         }
 
         function displayResult() {
-            xml = loadXMLDoc("path/to/your/file.xml");
-            xsl = loadXMLDoc("https://raw.githubusercontent.com/Fox33m/Codifica-di-testi-Sansilvestri/main/file/stile.xsl");
+            xml = loadXMLDoc("https://raw.githubusercontent.com/Fox33m/Codifica-di-testi-Sansilvestri/main/file-ddt/file_ddt.xml");
+            xsl = loadXMLDoc("https://raw.githubusercontent.com/Fox33m/Codifica-di-testi-Sansilvestri/main/file-ddt/stile.xsl");
 
             if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
                 ex = xml.transformNode(xsl);
