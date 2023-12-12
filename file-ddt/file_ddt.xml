@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-//TEI P5//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei_all.dtd">
 <?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/Fox33m/Codifica-di-testi-Sansilvestri/main/file-ddt/stile.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
