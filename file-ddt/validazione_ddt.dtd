@@ -1,0 +1,21 @@
+<!DOCTYPE TEI PUBLIC "-//TEI P5//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <!ELEMENT teiHeader (fileDesc)>
+  <!ELEMENT fileDesc (titleStmt)>
+  <!ELEMENT titleStmt (title)>
+  <!ELEMENT title (#PCDATA)>
+
+  <!ELEMENT text (body)>
+  <!ELEMENT body (div+)>
+  <!ELEMENT div (p, app*, linea?)>
+  <!ATTLIST div type CDATA #IMPLIED>
+  <!ATTLIST div xml:id CDATA #IMPLIED>
+
+  <!ELEMENT p (#PCDATA | app | linea)*>
+  <!ELEMENT app (lem, rdg)>
+  <!ELEMENT lem (#PCDATA)>
+  <!ELEMENT rdg (#PCDATA)>
+  
+  <!ELEMENT linea EMPTY>
+
+</TEI>
